@@ -2,7 +2,7 @@
 
 소개글
 ---
-> 특정 시간에 맞추어 자동으로 데디케이트 서버를 구동하고 종료하는 프로젝트 입니다.
+> 특정 시간에 맞추어 자동으로 데디케이트 서버를 구동하고 종료하는 Node.js 프로젝트 입니다.
 
 > 사용자가 설정한 시간에 맞추어 bat 파일을 자동으로 실행시켜 데디케이트 서버를 구동하고 7DTD 데디케이트 서버에서 제공되는 telnet 기능을 이용하여 공지 및 서버 종료 명령어를 실행하는 자동 스케줄 관리 매니저 입니다.
 
@@ -18,20 +18,25 @@
 3. startServer.bat: 아래 예시를 참고하여 프로젝트 최상위 폴더에 파일을 생성후 내용을 기입해 주세요.
 4. 다음과 같은 구성이 되어야 됩니다.
 
-- common
-    - define.js
-    - util.js
-- model
-    - dedicatedServer.js
-    - process.js
-    - telnet.js
-- .env
-- core.js
-- logger.js
-- main.js
-- package.json
-- setting.json
-- startServer.bat
+    - common
+        - define.js
+        - util.js
+    - model
+        - dedicatedServer.js
+        - process.js
+        - telnet.js
+    - .env
+    - core.js
+    - logger.js
+    - main.js
+    - package.json
+    - setting.json
+    - startServer.bat
+
+5. node 명령어를 이용하여 프로젝트를 실행합니다
+```
+node main.js
+```
 
 .env
 ---
