@@ -83,7 +83,7 @@ setting.json
     { 
         "dayOfWeek": 5,
         "startTime": "20:00",
-        "spendMinute": 180
+        "spendMinute": 360
     },
     { 
         "dayOfWeek": 6,
